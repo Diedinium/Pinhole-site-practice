@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/fonts/OpenSans-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+}
+
+.colour-test {
+    color: red;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/mountains.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+header nav {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.3);
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+    font-size: 11pt;
+}
+
+header nav ul li a:hover {
+    color: rgb(180, 180, 180);
+}
+
+.logo-container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1400px;
+    border-bottom: dashed rgba(256, 256, 256, 0.3) 1px;
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.hero-text {
+    color: white;
+    font-size: 50px;
+}
+
+.hero-button {
+    text-decoration: none;
+    color: white;
+    border: white solid 1px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    color: #a8a8a8;
+    border: gray solid 1px;
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+.standard-button {
+    text-decoration: none;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.standard-button:hover {
+    color: #252525;
+    border: #252525 solid 1px;
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+.standard-button-white {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) solid 1px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.standard-button-white:hover {
+    color: #a8a8a8;
+    border: #a8a8a8 solid 1px;
+    background-color: rgba(122, 122, 122, 0.1);
+}
+
+.d-flex {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.quater-card {
+    height: 550px;
+}
+
+.quater-card-top-left {
+    background-image: url('/images/pinhole_interior_16.jpg');
+    background-size: cover;
+}
+
+.quater-card-top-right {
+    padding: 80px;
+}
+
+.quater-card-bottom-left {
+    padding: 80px;
+    color: white;
+}
+
+.quater-card-bottom-left-colour {
+    background-color: #004156;
+}
+
+.quater-card-bottom-right {
+    background-image: url('images/pinhole_interior_29.jpg');
+    background-size: cover;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+.pt-2 {
+    padding-top: 2rem;
+}
+
+hr {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0));
+}
+
+p {
+    margin-bottom: 40px;
+}
