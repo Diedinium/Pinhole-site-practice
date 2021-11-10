@@ -236,8 +236,13 @@ p {
     object-fit: cover;
     filter: grayscale(100%);
     flex-grow: 1;
+    transition: 0.3s linear filter;
 }
 
 .gallery-image:hover {
     filter: none;
+}
+
+.mb-0 {
+    margin-bottom: 0;
 }
