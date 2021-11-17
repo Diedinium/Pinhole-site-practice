@@ -246,3 +246,21 @@ p {
 .mb-0 {
     margin-bottom: 0;
 }
+
+@media (max-width: 704px) {
+    .content-area {
+        width: 250px;
+    }
+
+    .w-50 {
+        width: 100%;
+    }
+
+    .w-33 {
+        width: 50%;
+    }
+
+    .quater-card {
+        height: unset;
+    }
+}
